@@ -10,5 +10,4 @@ Saya Dicki Fathurohman [2103842] mengerjakan TP3 DPBO2023 dalam mata kuliah DPBO
 
 Menggunakan mvvm karena view tidak berhubungan dengan model.
 
-Disini yang termasuk view adalah Synchronization.java, yang mengakses viewmodel yaitu Game.Java.
-Game.java, Handler dan Controller.java merupakan viewmodel karena file-file tersebut akan mengakses model yang ada. Model terdiri dari display, gameInterface, GameObject, dan Player karena file-file tersebut merupakan class yang menginisiasi diri mereka sendiri.
+Pada program ini akan mengakses view yaitu Synchronization.java, yang akan mengakses viewmodel yaitu Game.Java, dimana viewmodel ini akan mengakses model untuk mengambil data. Sehingga view tidak berhubungan langsung dengan file model untuk mandapatkan data. Game.java, Handler dan Controller.java merupakan viewmodel karena file-file tersebut akan mengakses model yang ada. Model terdiri dari display, gameInterface, GameObject, dan Player karena file-file tersebut merupakan class yang menginisiasi diri mereka sendiri.
